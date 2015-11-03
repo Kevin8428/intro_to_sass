@@ -1,0 +1,23 @@
+//variables!
+//DRY!
+// i hate repeating myself
+$black: black;
+$white: blue;
+$normal-size: 1.25em;
+
+body {
+  /* hi world, I am using sass*/
+  //javascript style coment
+  //this only works in sass!
+  //not css
+  // in terminal inside styles directory: sass -w test.scss
+  //-w: watch
+  //turns file into plain css in new .css file
+  //map file is minified file
+  //READ SASS STARTER GUIDE; LINK IN FAVORITES
+  // $ denotes variable
+  // DONT MODIFY CSS FILE WHEN USING SASS, IT WILL OVERWRITE CSS FILE.
+  background: black;
+  color: $white;
+  font-size: $normal-size;
+}
